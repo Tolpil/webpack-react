@@ -1,0 +1,31 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode=development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "html-webpack-plugin": "^5.6.6",
+    "ts-loader": "^9.5.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.105.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
